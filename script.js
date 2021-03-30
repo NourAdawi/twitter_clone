@@ -1,0 +1,1 @@
+const tweetBtn = document.querySelector(".tweet-btn");
