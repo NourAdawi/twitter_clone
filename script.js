@@ -1,1 +1,4 @@
-const tweetBtn = document.querySelector(".tweet-btn");
+
+
+  const btn = document.getElementById('like');
+  btn.addEventListener('click', () => {btn.style.color='red'; });
