@@ -278,6 +278,20 @@ body {
   font-size: 1.7rem;
   color: #929292;
   margin-right: 10rem;
+  cursor: pointer;
+}
+
+#like:hover{
+  color: red;
+
+}
+
+#retweet:hover{
+  color: rgb(51, 185, 51);
+}
+
+#comment:hover{
+  color: rgb(29,161,242);
 }
 
 .follow {
