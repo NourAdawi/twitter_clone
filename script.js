@@ -25,6 +25,19 @@ tweetBtn.addEventListener('click', e => {
       var element = document.getElementById("new");
       element.appendChild(tag);
 
+      var tag2 = document.createElement("h4");
+      var text2 = document.createTextNode('Nour Adawi');
+      tag2.appendChild(text2);
+      var element2 = document.getElementById("new2");
+      element2.appendChild(tag2);
+
+      var tag3 = document.createElement("span");
+      var text3 = document.createTextNode('@nourdaza . just now');
+      tag3.appendChild(text3);
+      var element3 = document.getElementById("new2");
+      element3.appendChild(tag3);
+
+
 });
 
 
