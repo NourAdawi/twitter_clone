@@ -38,6 +38,12 @@ tweetBtn.addEventListener('click', e => {
       element3.appendChild(tag3);
 
 
+      var img = document.createElement("img");
+      img.src  = "images/12.jpg";
+      var src = document.getElementById("new4");
+      src.appendChild(img);
+    
+
 });
 
 
